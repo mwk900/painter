@@ -4,9 +4,14 @@ import Link from 'next/link';
 import { SERVICES } from '@/lib/data';
 
 export const metadata: Metadata = {
-  title: 'Services | Chalk & Line Decorating, Nottingham',
+  title: 'Painting & Decorating Services | Chalk & Line, Nottingham',
   description:
-    'Interior painting, exterior painting, wallpapering, colour consultation, and period restoration across Nottingham. Full details and pricing.',
+    'Interior painting from £350/room, exterior painting from £800, wallpapering, colour consultation £75, and period property restoration across Nottingham and surrounding areas.',
+  openGraph: {
+    title: 'Decorating Services | Chalk & Line, Nottingham',
+    description: 'Five services, one standard. Interior, exterior, wallpapering, colour consultation and period restoration.',
+  },
+  alternates: { canonical: 'https://chalkandline.co.uk/services' },
 };
 
 export default function ServicesPage() {

@@ -4,7 +4,12 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   title: 'About | Chalk & Line Decorating, Nottingham',
   description:
-    'The story behind Chalk & Line. Started after 8 years painting for other firms and realising most of them skip prep.',
+    'Started after 8 years painting for other firms and realising most of them skip prep. Chalk & Line is the answer: proper preparation, colour confidence, clean finish.',
+  openGraph: {
+    title: 'About Chalk & Line | Decorator, Nottingham',
+    description: 'The story, the values, and the brands we use. Based in Nottingham, covering 20 miles.',
+  },
+  alternates: { canonical: 'https://chalkandline.co.uk/about' },
 };
 
 const VALUES = [
